@@ -22,7 +22,7 @@ public struct HideableTopView<TopContent: View, Content: View>: View {
     var topViewContent: TopContent
     var content: Content
     
-    init(@ViewBuilder topViewContent: () -> TopContent, @ViewBuilder content: () -> Content) {
+    public init(@ViewBuilder topViewContent: () -> TopContent, @ViewBuilder content: () -> Content) {
         self.topViewContent = topViewContent()
         self.content = content()
     }
