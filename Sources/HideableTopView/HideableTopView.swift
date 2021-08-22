@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HideableTopView<TopContent: View, Content: View>: View {
+public struct HideableTopView<TopContent: View, Content: View>: View {
     @Environment(\.presentationMode) var presentation
     @State var topViewHeight: CGFloat = 0
     @State var topViewOffset: CGFloat = 0
@@ -27,7 +27,7 @@ struct HideableTopView<TopContent: View, Content: View>: View {
         self.content = content()
     }
     
-    var body: some View {
+    public var body: some View {
         ZStack(alignment: .top) {
             topViewContent
                 .foregroundColor(.primary)
