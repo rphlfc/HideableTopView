@@ -2,13 +2,13 @@
 Hideable view that hides itself when scrolling up and slides on top of the main view when scrolling down. 
 
 ## Projects using the HideableTopView
-[Google Play App](https://github.com/rphlfc/GooglePlay)
-[Blog App](https://github.com/rphlfc/BlogApp)
+- [Google Play App](https://github.com/rphlfc/GooglePlay)
+- [Blog App](https://github.com/rphlfc/BlogApp)
 
 <img src="https://user-images.githubusercontent.com/16376748/131113651-e1d7ae74-890d-4f26-a5cc-96716753cfaa.gif" width="200">
-<img src="" width="200">
+<img src="https://user-images.githubusercontent.com/16376748/131113907-ba2f081d-9395-4f83-8f56-4e330d907824.gif" width="200">
 
-## Vídeos
+## Youtube Videos
 - [Google Play App](https://youtu.be/jI5fC1WNnkk)
 - [Blog App](https://youtu.be/DcyCUUodw1Y)
 
